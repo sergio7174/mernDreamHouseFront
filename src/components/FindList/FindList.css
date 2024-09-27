@@ -1,0 +1,77 @@
+.Find_container{
+    height:300%;
+    width: 100%;
+    background-image: url('../../assets/estate.png');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+}
+
+.Find_wrapper{
+    max-width: 980px;
+    margin: 0 auto;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+.Find_wrapper > h2{
+    font-size: 46px;
+    font-weight: bold;
+    
+    white-space: nowrap;
+    margin-bottom: 2.5rem;
+}
+
+.Find_wrapper > h5{
+    
+    font-size: 36px; 
+    margin-bottom: 3rem;
+}
+
+.Find_wrapper > .options{
+    width: 70%;
+    background-color: #fff;
+    padding: 1.25rem 1.5rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Find_options > select{
+    height: 40px;
+    min-width: 160px;
+    max-width: 200px;
+    border: none;
+    outline: none;
+    padding: 0.25rem 0.75rem;
+    background-color: blue;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.Find_options > select:first-child{
+    color: #fff;
+}
+
+.Find_options > .rangeInput{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Find_options > .Find_searchIcon{
+    padding: 0.6rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgb(7, 3, 73) 0%, rgb(14, 14, 132) 35%, rgb(32, 97, 219) 100%);
+    fill: #fff;
+    cursor: pointer;
+}
